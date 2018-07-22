@@ -31,7 +31,14 @@ public class Switcher {
     public File getFile2() {
         return file2;
     }
-    public void switchFiles(){
+    public int switchFiles(){
 
+        return 0;
+    }
+    public boolean isFilesLoaded(){
+        if (file1 != null && file2 != null){
+            return true;
+        }
+        else return false;
     }
 }

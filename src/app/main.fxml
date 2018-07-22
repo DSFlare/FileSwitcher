@@ -35,11 +35,11 @@
          </font></Label>
       <TextField fx:id="textField2" editable="false" layoutX="23.0" layoutY="178.0" onAction="#chooseFile2" onMouseClicked="#chooseFile2" prefHeight="31.0" prefWidth="280.0" />
       <Button layoutX="315.0" layoutY="178.0" mnemonicParsing="false" onAction="#chooseFile2" prefHeight="31.0" prefWidth="98.0" text="Choose" />
-      <Label layoutX="22.0" layoutY="246.0" prefHeight="21.0" prefWidth="177.0" text="Files have not loaded yet" textFill="#a80303">
+      <Label fx:id="label" layoutX="22.0" layoutY="246.0" prefHeight="21.0" prefWidth="177.0" text="Files have not loaded yet" textFill="#a80303">
          <font>
             <Font size="16.0" />
          </font></Label>
-      <Button disable="true" layoutX="22.0" layoutY="280.0" mnemonicParsing="false" prefHeight="31.0" prefWidth="137.0" text="Switch!" />
+      <Button fx:id="switchButton" disable="true" layoutX="22.0" layoutY="280.0" mnemonicParsing="false" onAction="#onSwitchClick" prefHeight="31.0" prefWidth="137.0" text="Switch!" />
       <Button disable="true" layoutX="422.0" layoutY="104.0" mnemonicParsing="false" prefHeight="31.0" prefWidth="98.0" text="Open" />
       <Button disable="true" layoutX="422.0" layoutY="178.0" mnemonicParsing="false" prefHeight="31.0" prefWidth="98.0" text="Open" />
    </children>

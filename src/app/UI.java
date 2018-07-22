@@ -27,7 +27,7 @@ class UI {
         primaryStage.show();
 
         controller = loader.getController();
-        controller.ui = this;
+        controller.setUI(this);
     }
 
     Stage getPrimaryStage() {
